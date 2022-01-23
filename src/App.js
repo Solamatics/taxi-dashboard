@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import styled from 'styled-components';
+import Analytics from './components/Analytics';
+import Dashboard from "./components/Dashboard";
+import Earning from "./components/Earning";
+import FAQ from "./components/FAQ";
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
+import ResuableStyles from './components/ReusableStyles';
+import Sidebar from "./components/Sidebar";
+import Transfers from "./components/Transfers";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Div>
+    <Sidebar />
+    <Dashboard />
+  </Div>;
 }
 
 export default App;
+const Div = styled.div``;
