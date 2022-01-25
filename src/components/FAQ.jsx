@@ -73,7 +73,7 @@ const Section = styled.section`
       &:nth-of-type(2) {
         border-top: 0.01rem solid #6c6c6e;
         border-bottom: 0.01rem solid #6c6c6e;
-        padding: 0.8rem;
+        padding: 0.8rem 0;
       }
     }
   }
